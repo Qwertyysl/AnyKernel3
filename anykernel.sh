@@ -37,9 +37,17 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 
 
 ## AnyKernel install
-dump_boot;
+# dump_boot;
+split_boot;
+
+if [ -f $split_img/ramdisk.cpio ]; then
+  unpack_ramdisk;
+  repack_ramdisk;
+fi;
+
+flash_boot;
+flash_dtbo;
 
 
-write_boot;
 ## end install
 
