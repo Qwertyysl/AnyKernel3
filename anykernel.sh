@@ -4,18 +4,18 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Genom Kernel by rama982 @ telegram
-do.devicecheck=1
-do.modules=1
+kernel.string=Custom Kernel By Qwerty .
+do.devicecheck=0
+do.modules=0
 do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=universal
+device.name1=ysl
 device.name2=
 device.name3=
 device.name4=
 device.name5=
-supported.versions=8 - 10
+supported.versions=
 supported.patchlevels=
 '; } # end properties
 
