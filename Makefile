@@ -1,6 +1,6 @@
 NAME ?= Kernel
 DATE := $(shell date "+%Y%m%d")
-CODE := AOSP-Ten-ysl-64bit
+CODE := Curtana-Aosp-Miui-Ten-64bit
 ZIP := $(NAME)-$(DATE).zip
 
 EXCLUDE := Makefile *.git* *.jar* *placeholder* *.md*
